@@ -97,7 +97,7 @@ function mostraDados(){
 
         $(`dt-clima-sem-${i}`).innerHTML = diasSemana[date.getDay()];
         $(`dt-clima-dia-${i}`).innerHTML = `${date.getDate()}/${date.getMonth() + 1}`;
-        $(`dt-clima-porc-${i}`).innerHTML = `${dados15.data[i].rain.probability}`;
+        $(`dt-clima-porc-${i}`).innerHTML = `${dados15.data[i].rain.probability}%`;
         $(`dt-clima-max-${i}`).innerHTML = `<i class="fa fa-arrow-up"></i> ${dados15.data[i].temperature.max}`;
         $(`dt-clima-min-${i}`).innerHTML = `<i class="fa fa-arrow-down"></i> ${dados15.data[i].temperature.min}`;
     }
