@@ -1,4 +1,4 @@
-#Fri Mar 22 21:25:20 BRT 2019
+#Sat Mar 23 11:25:37 BRT 2019
 base.0=C\:\\Users\\Admin\\Desktop\\FTT\\LP3\\tempo\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
