@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    min-width: 250px;
+    min-height: 350px;
+}
+
+body {
+    background: radial-gradient(#56CCF2, #2F80ED);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    margin: 10px auto;
+}
+
+.marca {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-height: 350px){
+    footer {
+        position: absolute;
+        top: 290px;
+    }
+}
